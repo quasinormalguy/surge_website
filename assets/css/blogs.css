@@ -1,0 +1,54 @@
+/* Scale background smaller for blogs */
+body.blog-page #bg:after {
+	transform: scale(2.0) !important;
+  }
+
+/* Collapse behavior */
+.blog-content {
+  display: none;
+  margin-top: 1rem;
+}
+
+/* Expand on toggle */
+.blog-section.active .blog-content {
+  display: block;
+}
+
+/* Cursor + transition */
+.collapsible {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.collapsible:hover {
+  color: #aaa;
+}
+
+#scrollToTop {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	display: none;
+	font-size: 2rem;
+	background: rgba(255, 255, 255, 0.2);
+	color: white;
+	padding: 0.5rem 0.75rem;
+	border-radius: 50%;
+	text-decoration: none;
+	z-index: 1000;
+	transition: background 0.3s ease;
+  }
+  
+  #scrollToTop:hover {
+	background: rgba(255, 255, 255, 0.4);
+  }
+
+  #blog-content-wrapper {
+	max-width: 900px;
+	/*max-width: 900px;
+	margin: 4rem auto;
+	padding: 2rem;
+	background-color: rgba(27, 31, 34, 0.85);
+	border-radius: 6px;*/
+	text-align: left;
+  }

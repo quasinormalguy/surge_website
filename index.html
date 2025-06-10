@@ -1,0 +1,300 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<!-- 	This is the "Head" of the HTML document.
+		It contains information that isn't displayed on the actual page, but is useful
+		for the web browser when loading the page	
+	-->
+	<head>
+		<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
+		<title>金月</title>
+		<link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="images/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+		<link rel="manifest" href="images/favicon/site.webmanifest" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
+			 If you want to edit the styling of this page, you should edit the file assets/css/main.css
+			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
+			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
+		-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
+			will load a separate set of CSS stylings from the file assets/css/noscript.css
+			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
+			available. 
+		-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/cv-modal.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+	</head>
+	<!-- The body is the location where your site's content will go -->
+	<body class="is-preload">
+
+			<!-- This "div" wraps around all of our content and just changes how things are layed out -->
+			<div id="wrapper">
+
+					<!-- This is where the content that appears on page load exists -->
+					<header id="header">
+						<!-- This is the main content of the front page -->
+						<div class="content">
+							<div class="inner">
+								<!-- Here is a heading where you can put your name -->
+								<h1>
+									Swarnim Shashank
+								</h1>
+								<!-- 	Here is an image where you can put a picture of you. 
+									You can change the width and height attributes below to change how large
+									your image is.
+
+									Try adding "border-radius: 50%;" to the style attribute.
+								-->
+								<img src="images/me.jpg" style="width:280px; height:280px; object-fit: cover;">
+								<!-- 	Here is a paragraph where you can put your position and institution, or
+									a short line about yourself.
+								-->
+								<p>
+									Super postdoctoral fellow <br> Fudan University
+								</p>
+							</div>
+						</div>
+						<!-- This is the navigation menu -->
+						<nav>
+							<!-- This element makes an "Unordered List" -->
+							<ul>
+								<!-- This is a "List Item" -->
+								<li>
+									<!-- 	Note that this links to #about, which will move the page to wherever
+										the element with the id "about" exists.
+									-->
+									<a href="#about">About Me</a>
+								</li>
+								<li>
+									<a href="#research">Research</a>
+								</li>
+								<li>
+									<a href="#Vitae">Vitae</a>
+								</li>
+								<li>
+									<a href="#contact">Contact</a>
+								</li>
+								
+								<!-- 	You can add another button to your navigation menu by adding
+									another List Item with a link inside of it.
+								-->
+								<!-- <li>
+									<a href="images/Astronomy.jpg">My CV</a>
+								</li> -->
+							</ul>
+						</nav>
+						<!-- New Blogs button below nav -->
+						<ul class="extra-nav">
+							<li><a href="blogs.html">Blogs</a></li>
+						</ul>
+					</header>
+
+					<!-- These are the "cards" that appear when you click the buttons on the main page -->
+					<div id="main">
+						<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous 
+							button links to.
+						-->
+						<article id="about">
+							<h2 class="major">About Me</h2>
+							<!-- Here is an image that you can customize for this page -->
+							<span class="image main">
+								<img src="images/me_bass.jpg" alt=""/>
+							</span>
+							<!-- Here are three paragraphs where you can fill out information about yourself -->
+							My name is Swarnim Shashank (स्वर्णिम् शशांक – which translates to golden moon so I also like to write it simply as 金月).
+							I hail from a small city in the gangetic plains of northern India, however I grew up in a small industrial town in the foothills of the Vindhya range.
+							I became interested in astronomy during my wonder years, through reading popsci and watching numerous documentaries, and then later developed 
+							interest in coding in high school. This has now lead me to working in astrophysics research - where I study the 
+							astrophysical systems using numerical simulations.
+							<br>
+							I am currently working on problems related to relativistic astrophysics in the strong gravity regime. 
+							My works span both in X-ray and gravitational wave astrophysics. 
+							<br>
+							I have varied interests and like discussing science, philosophy, music, movies, food and 
+							<a href='https://www.gnu.org/philosophy/floss-and-foss.en.html' target='_blank'>FLOSS</a>. 
+							I play guitar, bass guitar and harmonium, and have a diploma in Hindustani classical music.
+							<br>
+							<a href='http://www.catb.org/hacker-emblem/' target='_blank'>
+								<img src='images/glider.svg' width="69" alt='hacker emblem' /></a>
+						</article>
+
+						<!-- Here is the "Research" card. -->
+						<article id="research">
+							<h2 class="major">Research</h2>
+							<span class="image main">
+								<img src="images/grmhd_disk.png" alt=""/>
+							</span>
+							<p>
+								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
+									the next line.
+								-->
+								<b>Simulations of Accreting Black Holes</b><br>By numerically solving MHD equations coupled in a strong gravity backgroud,
+								I model the acretion process. These processes are the most efficient engines in the whole Universe and they can reveal a lot
+								of physics which is nearly impossible to study in the terrestrail laboratory.
+							</p>
+							<p>
+								<b>Modelling of X-ray Emissions</b><br>Using a codes for ray-tracing and radiation transport, I model the X-ray emissions from accreting
+								systems. Using a suite of simulations I create data analysis models which could directly be used for observational data of X-ray missions.
+							</p>
+							<p>
+								<b>Testing General Relativity</b><br>The theory of general relativity from Einstein presents the forefront in understand the nature
+								of gravity in the Universe. However, the theory still breaks at the centre of balck holes and the big bang creating singularities.
+								Using the data from X-ray and gravitational wave observatories, I test general relativity to look for any new physics. These observations
+								allow us to test the theory in a strong gravoty regime which in not possible on Earth.
+							</p>
+							<p>
+								<b>Simulations of neutron stars</b><br>Using numerical relativity codes, I simulate single and binary neutron stars to their various properties.
+								Such as the emissions of gravitational waves, neutron star asteroseismoogy, equations of state and, the effects of magnetic fields.
+							</p>
+							<!--p>
+								<b>Project II Title</b><br>Project description, including further links to posters, talks, publications.
+							</p-->
+						</article>
+
+						<!-- Here is the "Vitae" card. -->
+						<article id="Vitae">
+							<h2 class="major">Vitae</h2>
+							<span class="image main">
+								<img src="images/me_talk.jpg" alt=""/>
+							</span>
+							<p>
+								<!-- Items contained in <b> tags are bolded! -->
+								<b>Employment:</b>
+								<ul>
+									<li>Postdoctoral fellow, Fudan University, Shanghai, China</li>
+								</ul>
+							</p>
+							<p>
+								<!-- Items contained in <b> tags are bolded! -->
+								<b>Education:</b>
+								<ul>
+									<li>Ph.D. (Theoretical Physics), Fudan University, Shanghai, China</li>
+									<li>Integrated M.Sc. (Physics), UM-DAE-CEBS, Mumbai, India</li>
+								</ul>
+							</p>
+							<p>
+								<b>Research Interests:</b> Relativistic Astrophysics, GRMHD, X-ray Astrophysics, Gravitational Wave Physics, 
+								Numerical Relativity, Tests of General Relativity, Black Holes, Neutron stars, Machine Learning
+							</p>
+							<p>
+								<b>Publications:</b> <a href="https://inspirehep.net/authors/1903109" class="ai ai-inspire" target='_blank'>InspireHEP</a>, 
+								<a href="https://arxiv.org/a/shashank_s_1" class="ai ai-arxiv" target='_blank'>arXiv</a>, 
+								<a href="https://ui.adsabs.harvard.edu/public-libraries/PH27Z2CGRdyYxKQhyv405w" class="ai ai-ads" target="_blank">ADS</a>
+							</p>
+							<!-- Here is a paragraph where you can put a link to your CV -->
+							<!-- Trigger Button -->
+							<p>
+								<a href="#cv" class="button" id="cv-link">PDF</a>
+								Pass: 9<sup>3</sup> + 10<sup>3</sup>
+							</p>
+							
+							<!-- Modal Structure -->
+							<div id="cv-modal" class="modal">
+								<div class="modal-content">
+								<span class="close-button" id="close-cv">&times;</span>
+								<iframe src="cv/CV_swarnim_protected.pdf#zoom=FitW" width="100%" height="100%" style="border:none;"></iframe>
+								</div>
+							</div>
+						</article>
+
+						<!-- Here is a the "Contact" card. -->
+						<article id="contact">
+							<h2 class="major">Contact</h2>
+							<p> 
+								<b>Email: </b> swarnim -at- fudan -dot- edu -dot- cn
+							</p>
+							<p> 
+								<b>Address: </b> Physics research building, Fudan University Jiangwan Campus, 2005 Songhu road, Shanghai
+							</p>
+
+							<!-- 	Here are the fancy icons that link to your social media.
+								These icons are rendered using Font Awesome fonts, and you can find more icons
+								here: https://fontawesome.com/icons
+							-->
+							<ul class="icons">
+								<!-- The Twitter icon -->
+								<li>
+									<!-- 	Note that you need to change the link to point to your page.
+										Replace "#" with your Twitter profile page.
+									-->
+									<a href="https://orcid.org/0000-0003-3402-7212" class="ai ai-orcid" target="_blank">
+									</a>
+								</li>
+								<!-- The inspirehep icon -->
+								<li>
+									<a href="https://inspirehep.net/authors/1903109" class="ai ai-inspire" target="_blank">
+									</a>
+								</li>
+								<!-- The ADS icon -->
+								<li>
+									<a href="https://ui.adsabs.harvard.edu/public-libraries/PH27Z2CGRdyYxKQhyv405w" class="ai ai-ads" target="_blank">
+									</a>
+								</li>
+								<!-- The ADS icon -->
+								<li>
+									<a href="https://arxiv.org/a/shashank_s_1" class="ai ai-arxiv" target="_blank">
+									</a>
+								</li>
+								<!-- The google scholar icon -->
+								<li>
+									<a href="https://scholar.google.com/citations?user=VIXh39IAAAAJ" class="ai ai-google-scholar" target="_blank">
+										<!--span class="label">GoogleScholar</span-->
+									</a>
+								</li>
+								<!-- The GitHub icon -->
+								<li>
+									<a href="https://github.com/quasinormalguy" class="icon fa-github" target="_blank">
+										<span class="label">GitHub</span>
+									</a>
+								</li>
+								<!-- 	We can add a new icon by searching on the Font Awesome website
+									for the correct class name and inserting it as a new list item.
+
+									We found "envelope" here: https://fontawesome.com/icons/envelope
+								-->
+								<!-- <li>
+									<a href="#" class="icon fa-envelope">
+										<span class="label">Email</span>
+									</a>
+								</li> -->
+							</ul>
+						</article>
+					</div>
+
+					<!-- This is the footer that appears at the bottom of the page -->
+					<footer id="footer">
+						<!-- 	You can change "Untitled" to your name to show everyone that
+							this is your work.
+						-->
+						<p class="copyright">&copy; Swarnim Shashank 2025. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+			<!--	This is the background image of the site.
+				All configuration of the background is done with CSS.
+				Look in the file assets/css/main.css and search for "#bg" to
+				see how this element is styled. Look for comments pointing 
+				to where you can set a new background image.
+			-->
+			<div id="bg"></div>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/cv-modal.js"></script>
+	</body>
+</html>
